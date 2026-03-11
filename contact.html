@@ -5,10 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contact Murphy Wellness | Peabody, KS Primary Care</title>
   <meta name="description" content="Call, text, message, or request an appointment with Murphy Wellness in Peabody, Kansas.">
+  <meta name="theme-color" content="#5f3a78">
+  <link rel="icon" type="image/jpeg" href="assets/img/logo.jpeg">
+  <link rel="apple-touch-icon" href="assets/img/logo.jpeg">
+  <link rel="manifest" href="site.webmanifest">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalClinic",
+    "name": "Murphy Wellness",
+    "url": "https://murphywellness.org/contact.html",
+    "image": "https://murphywellness.org/assets/img/logo.jpeg",
+    "telephone": "+1-620-992-6088",
+    "email": "info@premonition.health",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "500 W 4th St",
+      "addressLocality": "Peabody",
+      "addressRegion": "KS",
+      "postalCode": "66866",
+      "addressCountry": "US"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "08:30",
+        "closes": "16:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Tuesday",
+        "opens": "15:00",
+        "closes": "21:00"
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -119,7 +161,8 @@
         <article class="section-panel form-card" id="contact-form" data-reveal>
           <span class="eyebrow">Send a message</span>
           <h2>Non-urgent questions and appointment requests</h2>
-          <p class="form-note">Please connect this form to your GoDaddy form handler or preferred contact form service before launch. The current version is a front-end demo so the page flow can be reviewed.</p>
+          <p class="form-note">We welcome non-urgent questions about appointments, membership, insurance, self-pay visits, and getting started.</p>
+          <div class="notice" data-form-status hidden></div>
           <div class="success-message" data-form-success>Thanks. Your message has been sent. If your question is urgent, please call the clinic instead of using the form.</div>
           <form action="contact-handler.php" method="post">
             <div class="field-grid">

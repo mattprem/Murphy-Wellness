@@ -1,0 +1,15 @@
+{
+  "name": "Murphy Wellness",
+  "short_name": "Murphy Wellness",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbfafd",
+  "theme_color": "#5f3a78",
+  "icons": [
+    {
+      "src": "assets/img/logo.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
